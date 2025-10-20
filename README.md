@@ -22,3 +22,14 @@ For string columns, supports:
 - **Suppression**: Replaces rare values (below `k`) with `NaN`.  
 - **Generalization**: Truncates values to reduce uniqueness.  
 - **Synthetic Replacement**: Replaces values with randomly selected synthetic ones from existing categories.
+
+---
+## 🗂️ Project Structure  
+├─ data/  
+│ └─ healthcare_dataset.csv # Input dataset  
+├─ src/  
+│ └─ data_anonymizer.py # Main anonymization script  
+├─ output/  
+│ └─ anonymized_dataset.csv # Generated output after running script  
+├─ README.md  
+└─ requirements.txt  
