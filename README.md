@@ -9,3 +9,9 @@ It applies **differential privacy** to numerical columns and **k-anonymity** str
 - Generate an anonymized dataset that preserves privacy while allowing further analysis.
 
 ---
+## 🧠 Techniques Implemented
+
+### 🔸 Differential Privacy
+- Identifies numeric columns and calculates sensitivity (max - min).  
+- Adds Laplace noise based on a configurable **epsilon (ε)** parameter.  
+- Lower ε ⇒ stronger privacy but more noise.
