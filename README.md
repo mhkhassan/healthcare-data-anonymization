@@ -15,3 +15,10 @@ It applies **differential privacy** to numerical columns and **k-anonymity** str
 - Identifies numeric columns and calculates sensitivity (max - min).  
 - Adds Laplace noise based on a configurable **epsilon (ε)** parameter.  
 - Lower ε ⇒ stronger privacy but more noise.
+
+---
+### 🔸 K-Anonymity
+For string columns, supports:
+- **Suppression**: Replaces rare values (below `k`) with `NaN`.  
+- **Generalization**: Truncates values to reduce uniqueness.  
+- **Synthetic Replacement**: Replaces values with randomly selected synthetic ones from existing categories.
