@@ -33,3 +33,9 @@ For string columns, supports:
 │ └─ anonymized_dataset.csv # Generated output after running script  
 ├─ README.md  
 └─ requirements.txt  
+
+---
+## 🚀 How to Run
+1. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
