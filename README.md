@@ -33,3 +33,19 @@ For string columns, supports:
 │ └─ anonymized_dataset.csv # Generated output after running script  
 ├─ README.md  
 └─ requirements.txt  
+
+---
+## 🚀 How to Run
+1. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+2. **Run the script**
+    ```bash
+    python src/data_anonymizer.py
+
+3. **Check output**
+    ```bash
+    output/anonymized_dataset.csv
+
+
