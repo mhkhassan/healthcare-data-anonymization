@@ -48,4 +48,16 @@ For string columns, supports:
     ```bash
     output/anonymized_dataset.csv
 
+---
+## ⚙️ Parameters  
+You can modify these in the scripts:
+- epsilon_param : Controls differential privacy noise (default 0.1)
+- k_param : Minimum group size for k-anonymity (default 5)
+- anonymization _strategy : 'suppression', 'generalization', or 'synthetic'
 
+---
+## 📊 Dataset
+The included `healthcare_dataset.csv` is a sample dataset used for demonstration purposes.
+It contains both numerical and categorical attributes suitable for anonymization techniques.
+
+You can replace it with any structured CSV file containing similar data types.
