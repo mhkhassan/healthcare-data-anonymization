@@ -48,4 +48,9 @@ For string columns, supports:
     ```bash
     output/anonymized_dataset.csv
 
-
+---
+## ⚙️ Parameters  
+You can modify these in the scripts:
+- epsilon_param : Controls differential privacy noise (default 0.1)
+- k_param : Minimum group size for k-anonymity (default 5)
+- anonymization _strategy : 'suppression', 'generalization', or 'synthetic'
