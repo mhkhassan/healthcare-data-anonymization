@@ -61,3 +61,7 @@ The included `healthcare_dataset.csv` is a sample dataset used for demonstration
 It contains both numerical and categorical attributes suitable for anonymization techniques.
 
 You can replace it with any structured CSV file containing similar data types.
+
+---
+## 📝 License
+This project is released under the MIT License.
