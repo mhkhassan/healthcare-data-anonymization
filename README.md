@@ -24,15 +24,15 @@ For string columns, supports:
 - **Synthetic Replacement**: Replaces values with randomly selected synthetic ones from existing categories.
 
 ---
-## 📁 healthcare-data-anonymization
- ┣ 📂 data
- ┃ ┗ 📄 healthcare_dataset.csv
- ┣ 📂 src
- ┃ ┗ 📄 data_anonymizer.py
- ┣ 📂 output
- ┣ 📄 README.md
- ┣ 📄 requirements.txt
- ┗ 📄 .gitignore 
+## 📁 healthcare-data-anonymization  
+ ┣ 📂 data  
+ ┃ ┗ 📄 healthcare_dataset.csv  
+ ┣ 📂 src  
+ ┃ ┗ 📄 data_anonymizer.py  
+ ┣ 📂 output  
+ ┣ 📄 README.md  
+ ┣ 📄 requirements.txt  
+ ┗ 📄 .gitignore  
 
 ---
 ## 🚀 How to Run
